@@ -18,5 +18,14 @@ button.onclick = ()=>{
     );
   }
   display.value = randomPassword;
+
+function copy(){
+        copyBtn.style.display = "none";
+        copyActive.style.display = "block";
+        display.select();
+        document.execCommand("copy");
+      }
+
+
 }
 
